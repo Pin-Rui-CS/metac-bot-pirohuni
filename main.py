@@ -680,9 +680,9 @@ if __name__ == "__main__":
                 timeout=40,
                 allowed_tries=2,
             ),
-            "summarizer": "openai/gpt-4o-mini",
+            "summarizer": "openrouter/openai/gpt-4o-mini",
             "researcher": "asknews/news-summaries",
-            "parser": "openai/gpt-4o-mini",
+            "parser": "openrouter/openai/gpt-4o-mini",
         },
     )
 
